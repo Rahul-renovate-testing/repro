@@ -1,12 +1,11 @@
 {
-    "packageRules": [
-      {
-        "matchDepTypes": ["packageManager"],
-        "postUpgradeTasks":
-          {
-            "commands": ["corepack use {{{depName}}}@{{{newVersion}}}"],
-            "fileFilters": ["package.json"],
-          }
+  "packageRules": [
+    {
+      "matchDepTypes": ["packageManager"],
+      "postUpgradeTasks": {
+        "commands": ["corepack use {{{depName}}}@{{{newVersion}}}"],
+        "fileFilters": ["package.json"]
       }
+    }
   ]
 }
