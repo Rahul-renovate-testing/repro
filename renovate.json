@@ -1,11 +1,3 @@
 {
-  "packageRules": [
-    {
-      "matchDepTypes": ["packageManager"],
-      "postUpgradeTasks": {
-        "commands": ["corepack use {{{depName}}}@{{{newVersion}}}"],
-        "fileFilters": ["package.json"]
-      }
-    }
-  ]
+  "prHourlyLimit": 10
 }
