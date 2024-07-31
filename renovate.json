@@ -1,3 +1,7 @@
 {
-  "prHourlyLimit": 10
+  "prHourlyLimit": 10,
+  "packageRules": [{
+    "matchPackageNames": ["pnpm"],
+    "allowedVersions": "<9" 
+  }]
 }
