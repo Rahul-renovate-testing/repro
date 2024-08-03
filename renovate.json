@@ -2,6 +2,6 @@
   "prHourlyLimit": 10,
   "packageRules": [{
     "matchDepTypes": ["packageManager"],
-    "pinDigests": true
+    "rangeStrategy": "pin"
   }]
 }
