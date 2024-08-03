@@ -1,7 +1,3 @@
 {
-  "prHourlyLimit": 10,
-  "packageRules": [{
-    "matchDepTypes": ["packageManager"],
-    "rangeStrategy": "pin"
-  }]
+  "prHourlyLimit": 10
 }
